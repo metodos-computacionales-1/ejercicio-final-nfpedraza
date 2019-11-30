@@ -80,7 +80,7 @@ void euler_cromer(Pendulum & p,double dt,double t)
 void initial_conditions(Pendulum & p)
 {
   p.q=0.5;
-  p.Fd=1.4;
+  p.Fd=1.5;
   p.Omega=0.666;
   p.L=G;
   p.W=0.0;
